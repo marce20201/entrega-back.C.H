@@ -1,0 +1,1032 @@
+Statistical profiling result from ccl-v8.log, (5206 ticks, 16 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     82    1.6%          /usr/lib/system/libsystem_malloc.dylib
+     50    1.0%          /usr/lib/system/libsystem_platform.dylib
+     17    0.3%          /usr/lib/system/libsystem_kernel.dylib
+     13    0.2%          /usr/lib/system/libsystem_pthread.dylib
+     13    0.2%          /usr/lib/system/libsystem_c.dylib
+      7    0.1%          /usr/lib/libc++.1.dylib
+      5    0.1%          /usr/lib/libc++abi.dylib
+      1    0.0%          /usr/lib/libobjc.A.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     35    0.7%    0.7%  LazyCompile: *wrap /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+     35    0.7%    0.7%  LazyCompile: *parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     21    0.4%    0.4%  LazyCompile: *resolve path.js:973:10
+     18    0.3%    0.4%  LazyCompile: *SourceNode_walk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:221:53
+     14    0.3%    0.3%  LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      8    0.2%    0.2%  LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      7    0.1%    0.1%  RegExp: (?:\r\n?|\n).*
+      7    0.1%    0.1%  LazyCompile: *generateList /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:143:38
+      6    0.1%    0.1%  LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      5    0.1%    0.1%  LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      5    0.1%    0.1%  LazyCompile: *processTicksAndRejections internal/process/task_queues.js:65:35
+      4    0.1%    0.1%  LazyCompile: *castChunk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      4    0.1%    0.1%  LazyCompile: *SubExpression /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:236:40
+      3    0.1%    0.1%  RegExp: ^\.|this\b
+      3    0.1%    0.1%  RegExp: ^(?:false(?=([~}\s)])))
+      3    0.1%    0.1%  LazyCompile: *setupParams /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      3    0.1%    0.1%  LazyCompile: *normalizeString path.js:52:25
+      3    0.1%    0.1%  LazyCompile: *nextTick internal/process/task_queues.js:101:18
+      3    0.1%    0.1%  LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      3    0.1%    0.1%  LazyCompile: *hidden internal/errors.js:286:25
+      3    0.1%    0.1%  LazyCompile: *extend /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      3    0.1%    0.1%  LazyCompile: *anonymous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      2    0.0%    0.0%  RegExp: ^(?:as\s+\|)
+      2    0.0%    0.0%  RegExp: ^(?:\}(~)?\}\})
+      2    0.0%    0.0%  RegExp: ^(?:\{\{(~)?>)
+      2    0.0%    0.0%  RegExp: ^(?:\{\{(~)?#>)
+      2    0.0%    0.0%  RegExp: ^(?:\{\{(~)?![\s\S]*?\}\})
+      2    0.0%    0.0%  RegExp: ^(?:([^\s!"#%-,\.\/;->@\[-\^`\{-~]+(?=([=~}\s\/.)|]))))
+      2    0.0%    0.0%  RegExp: ^(?:'(\\[']|[^'])*')
+      2    0.0%    0.0%  RegExp: [&<>"'`=]
+      2    0.0%    0.0%  LazyCompile: *renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      2    0.0%    0.0%  LazyCompile: *readPackageScope internal/modules/cjs/loader.js:271:26
+      2    0.0%    0.0%  LazyCompile: *push /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      2    0.0%    0.0%  LazyCompile: *parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:271:16
+      2    0.0%    0.0%  LazyCompile: *normalize path.js:1004:12
+      2    0.0%    0.0%  LazyCompile: *dirname path.js:1127:10
+      2    0.0%    0.0%  LazyCompile: *SourceNode_add /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:172:51
+      2    0.0%    0.0%  LazyCompile: *SourceNode /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:35:20
+      2    0.0%    0.0%  LazyCompile: *Module._nodeModulePaths internal/modules/cjs/loader.js:575:37
+      2    0.0%    0.0%  LazyCompile: *<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:174:29
+      1    0.0%    0.0%  RegExp: ^\s*?(\r?\n|$)
+      1    0.0%    0.0%  RegExp: ^.*[\.\/\\]
+      1    0.0%    0.0%  RegExp: ^(?:null(?=([~}\s)])))
+      1    0.0%    0.0%  RegExp: ^(?:\|)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\^)
+      1    0.0%    0.0%  RegExp: ^(?:\.(?=([=~}\s\/.)|])))
+      1    0.0%    0.0%  RegExp: ^(?:\))
+      1    0.0%    0.0%  RegExp: ^(?:\()
+      1    0.0%    0.0%  RegExp: ^(?:[^\x00]+)
+      1    0.0%    0.0%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+      1    0.0%    0.0%  RegExp: ^(?:=)
+      1    0.0%    0.0%  RegExp: ^(?:-?[0-9]+(?:\.[0-9]+)?(?=([~}\s)])))
+      1    0.0%    0.0%  RegExp: ^(?:(~)?\}\})
+      1    0.0%    0.0%  RegExp: ^((?:@[^/\\%]+\/)?[^./\\%][^/\\%]*)(\/.*)?$
+      1    0.0%    0.0%  RegExp: [\x00-\x1f\x27\x5c\x7f-\x9f]
+      1    0.0%    0.0%  RegExp: ;\s*charset\s*=
+      1    0.0%    0.0%  RegExp: ; *([!#$%&'*+.^_`|~0-9A-Za-z-]+) *= *("(?:[\u000b\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\u000b\u0020-\u00ff])*"|[!#$%&'*+.^_`|~0-9A-Za-z-]+) *
+      1    0.0%    0.0%  RegExp: (^|\r?\n)\s*?$
+      1    0.0%    0.0%  LazyCompile: *template /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:52:18
+      1    0.0%    0.0%  LazyCompile: *stylizeWithColor internal/util/inspect.js:519:26
+      1    0.0%    0.0%  LazyCompile: *setupHelperArgs /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1    0.0%    0.0%  LazyCompile: *replaceStack /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1    0.0%    0.0%  LazyCompile: *relative path.js:1052:11
+      1    0.0%    0.0%  LazyCompile: *realpathSync fs.js:1650:22
+      1    0.0%    0.0%  LazyCompile: *pushStackLiteral /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:877:46
+      1    0.0%    0.0%  LazyCompile: *pushSource /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1    0.0%    0.0%  LazyCompile: *preparePath /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      1    0.0%    0.0%  LazyCompile: *opcode /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:347:26
+      1    0.0%    0.0%  LazyCompile: *objectLiteral /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      1    0.0%    0.0%  LazyCompile: *lookupProperty /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:118:44
+      1    0.0%    0.0%  LazyCompile: *lookupOnContext /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      1    0.0%    0.0%  LazyCompile: *join path.js:1033:7
+      1    0.0%    0.0%  LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      1    0.0%    0.0%  LazyCompile: *emit events.js:264:44
+      1    0.0%    0.0%  LazyCompile: *classifySexpr /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:363:40
+      1    0.0%    0.0%  LazyCompile: *anonymous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:549:49
+      1    0.0%    0.0%  LazyCompile: *accept /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:57:26
+      1    0.0%    0.0%  LazyCompile: *_addListener events.js:343:22
+      1    0.0%    0.0%  LazyCompile: *WhitespaceControl.Program /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:19:48
+      1    0.0%    0.0%  LazyCompile: *PathExpression /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      1    0.0%    0.0%  LazyCompile: *<anonymous> internal/per_context/primordials.js:23:10
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:360:47
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:274:31
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:85:24
+
+ [C++]:
+   ticks  total  nonlib   name
+   2667   51.2%   53.1%  t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+    479    9.2%    9.5%  t __ZN4node2fsL4ReadERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+    269    5.2%    5.4%  T __ZN4node10contextify17ContextifyContext15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+    107    2.1%    2.1%  t __ZN4node2fsL22InternalModuleReadJSONERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+    105    2.0%    2.1%  T __ZN4node13native_module15NativeModuleEnv15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     92    1.8%    1.8%  T ___workq_kernreturn
+     91    1.7%    1.8%  T __kernelrpc_thread_policy_set
+     71    1.4%    1.4%  t __ZN4node2fsL4OpenERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     65    1.2%    1.3%  t __ZN4node2fsL4StatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     56    1.1%    1.1%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_6WritevERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+     55    1.1%    1.1%  T _semaphore_create
+     46    0.9%    0.9%  T __ZN4node2fs5CloseERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     46    0.9%    0.9%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteStringILNS_8encodingE1EEEiRKN2v820FunctionCallbackInfoINS4_5ValueEEEEEEEvS9_
+     35    0.7%    0.7%  t __ZN2v88internal12StringHasher20HashSequentialStringIhEEjPKT_iy
+     34    0.7%    0.7%  t __ZN4nodeL11MemoryUsageERKN2v820FunctionCallbackInfoINS0_5ValueEEE
+     34    0.7%    0.7%  T _mach_vm_map
+     28    0.5%    0.6%  t __ZN4node2fsL5FStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     25    0.5%    0.5%  T _fcntl
+     25    0.5%    0.5%  T __ZN4node2fs16NewFSReqCallbackERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     23    0.4%    0.5%  T _task_policy_set
+     19    0.4%    0.4%  t __ZN4node6Buffer12_GLOBAL__N_111StringSliceILNS_8encodingE1EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+     18    0.3%    0.4%  T __ZN4node6crypto4Hash3NewERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     17    0.3%    0.3%  T ___commpage_gettimeofday
+     15    0.3%    0.3%  t __ZN4node2fsL18InternalModuleStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     13    0.2%    0.3%  t __ZN2v88internal12_GLOBAL__N_119HandleApiCallHelperILb0EEENS0_11MaybeHandleINS0_6ObjectEEEPNS0_7IsolateENS0_6HandleINS0_10HeapObjectEEESA_NS8_INS0_20FunctionTemplateInfoEEENS8_IS4_EENS0_16BuiltinArgumentsE
+     13    0.2%    0.3%  T __ZN4node6crypto11RandomBytesERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     12    0.2%    0.2%  t __ZN4node2fsL7ReadDirERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     12    0.2%    0.2%  t __ZN4node2fsL5LStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     10    0.2%    0.2%  t __ZN4nodeL9EnvGetterEN2v85LocalINS0_4NameEEERKNS0_20PropertyCallbackInfoINS0_5ValueEEE
+      9    0.2%    0.2%  t __ZN2v88internal25FunctionCallbackArguments4CallENS0_15CallHandlerInfoE
+      9    0.2%    0.2%  T __ZN4node6crypto4Hash10HashDigestERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      8    0.2%    0.2%  t __ZN4node6Buffer12_GLOBAL__N_111StringWriteILNS_8encodingE1EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+      8    0.2%    0.2%  T __ZN4node21InternalCallbackScope5CloseEv
+      7    0.1%    0.1%  T __ZN4node7binding18GetInternalBindingERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      7    0.1%    0.1%  T __ZN2v88Function4CallENS_5LocalINS_7ContextEEENS1_INS_5ValueEEEiPS5_
+      6    0.1%    0.1%  T _chmod
+      5    0.1%    0.1%  t __ZNSt3__112__hash_tableIN4node19CleanupHookCallbackENS2_4HashENS2_5EqualENS_9allocatorIS2_EEE14__erase_uniqueIS2_EEmRKT_
+      5    0.1%    0.1%  t __ZN4node9inspector12_GLOBAL__N_120InspectorConsoleCallERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      5    0.1%    0.1%  t __ZN2v88internal6String7FlattenEPNS0_7IsolateENS0_6HandleIS1_EENS0_14AllocationTypeE
+      5    0.1%    0.1%  t __ZN2v88internal14LookupIteratorC2EPNS0_7IsolateENS0_6HandleINS0_6ObjectEEENS4_INS0_4NameEEEmNS4_INS0_10JSReceiverEEENS1_13ConfigurationE
+      5    0.1%    0.1%  T __ZN4node7TTYWrap3NewERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      5    0.1%    0.1%  T __ZN4node6crypto4Hash10HashUpdateERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      4    0.1%    0.1%  t __ZN4nodeL8EnvQueryEN2v85LocalINS0_4NameEEERKNS0_20PropertyCallbackInfoINS0_7IntegerEEE
+      4    0.1%    0.1%  t __ZN2v88internal11StringShape33DispatchToSpecificTypeWithoutCastIZNS1_22DispatchToSpecificTypeIZNS0_6String3GetEiE19StringGetDispatchertJRiEEET0_S4_DpOT1_E17CastingDispatchertJRS4_S6_EEES7_SA_
+      4    0.1%    0.1%  T __ZN4node2fs15FSReqAfterScopeC2EPNS0_9FSReqBaseEP7uv_fs_s
+      4    0.1%    0.1%  T __ZN2v88internal20Builtin_ArrayUnshiftEiPmPNS0_7IsolateE
+      3    0.1%    0.1%  t __ZNSt3__112__hash_tableIN4node19CleanupHookCallbackENS2_4HashENS2_5EqualENS_9allocatorIS2_EEE4findIS2_EENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+      3    0.1%    0.1%  t __ZN4node6Buffer12_GLOBAL__N_111StringSliceILNS_8encodingE2EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+      3    0.1%    0.1%  t __ZN4node10cares_wrap12_GLOBAL__N_111ChannelWrap3NewERKN2v820FunctionCallbackInfoINS3_5ValueEEE
+      3    0.1%    0.1%  t __ZN2v88internalL26Builtin_Impl_HandleApiCallENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      3    0.1%    0.1%  t __ZN2v88internal9CopyCharsIhtEEvPT0_PKT_m
+      3    0.1%    0.1%  t __ZN2v88internal17PrototypeIterator7AdvanceEv
+      3    0.1%    0.1%  t __ZN2v88internal12_GLOBAL__N_119HandleApiCallHelperILb1EEENS0_11MaybeHandleINS0_6ObjectEEEPNS0_7IsolateENS0_6HandleINS0_10HeapObjectEEESA_NS8_INS0_20FunctionTemplateInfoEEENS8_IS4_EENS0_16BuiltinArgumentsE
+      3    0.1%    0.1%  T _mach_vm_copy
+      3    0.1%    0.1%  T _host_get_special_port
+      3    0.1%    0.1%  T __ZNK2v85Value10IsFunctionEv
+      3    0.1%    0.1%  T __ZN4node21InternalCallbackScopeC2EPNS_11EnvironmentEN2v85LocalINS3_6ObjectEEERKNS_13async_contextEi
+      3    0.1%    0.1%  T __ZN2v88internal8Builtins14builtin_handleEi
+      3    0.1%    0.1%  T __ZN2v88internal19Builtin_ArrayConcatEiPmPNS0_7IsolateE
+      2    0.0%    0.0%  t __ZN4node4utilL14SetHiddenValueERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      2    0.0%    0.0%  t __ZN4node10task_queueL13RunMicrotasksERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      2    0.0%    0.0%  t __ZN4node10BaseObject17decrease_refcountEv
+      2    0.0%    0.0%  t __ZN4node10AsyncHooks17pop_async_contextEd
+      2    0.0%    0.0%  t __ZN2v88internalL24Builtin_Impl_ArrayConcatENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      2    0.0%    0.0%  t __ZN2v84base19TemplateHashMapImplIPvS2_NS0_26HashEqualityThenKeyMatcherIS2_PFbS2_S2_EEENS0_23DefaultAllocationPolicyEE14LookupOrInsertIZNS8_14LookupOrInsertERKS2_jS7_EUlvE_EEPNS0_20TemplateHashMapEntryIS2_S2_EESB_jRKT_S7_
+      2    0.0%    0.0%  T __kernelrpc_mach_vm_protect_trap
+      2    0.0%    0.0%  T __ZN4node11UVExceptionEPN2v87IsolateEiPKcS4_S4_S4_
+      2    0.0%    0.0%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteBufferERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+      2    0.0%    0.0%  T __ZN2v89Exception5ErrorENS_5LocalINS_6StringEEE
+      2    0.0%    0.0%  T __ZN2v88internal9Accessors23FunctionPrototypeGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      2    0.0%    0.0%  T __ZN2v88internal9Accessors20FunctionLengthGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      2    0.0%    0.0%  T __ZN2v88internal8Compiler19GetFunctionFromEvalENS0_6HandleINS0_6StringEEENS2_INS0_18SharedFunctionInfoEEENS2_INS0_7ContextEEENS0_12LanguageModeENS0_16ParseRestrictionEiii
+      2    0.0%    0.0%  T __ZN2v88internal25FunctionCallbackArgumentsC1EPNS0_7IsolateENS0_6ObjectENS0_10HeapObjectES4_S5_Pmi
+      2    0.0%    0.0%  T __ZN2v88internal23Builtin_DateConstructorEiPmPNS0_7IsolateE
+      2    0.0%    0.0%  T __ZN2v88internal15AstValueFactory9GetStringEjbNS0_6VectorIKhEE
+      2    0.0%    0.0%  T __ZN2v88internal15AstValueFactory24GetOneByteStringInternalENS0_6VectorIKhEE
+      2    0.0%    0.0%  T __ZN2v87Context4ExitEv
+      2    0.0%    0.0%  T __ZN2v86String14NewFromOneByteEPNS_7IsolateEPKhNS_13NewStringTypeEi
+      2    0.0%    0.0%  T __ZN2v811HandleScopeD1Ev
+      1    0.0%    0.0%  t __pthread_bsdthread_init
+      1    0.0%    0.0%  t __ZZN4node15LibuvStreamWrap9ReadStartEvEN3$_18__invokeEP11uv_handle_smP8uv_buf_t
+      1    0.0%    0.0%  t __ZNSt3__116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+      1    0.0%    0.0%  t __ZNK4node32NonOwningExternalTwoByteResource4dataEv
+      1    0.0%    0.0%  t __ZNK2v88internal17PrototypeIterator9HasAccessEv
+      1    0.0%    0.0%  t __ZNK2v88internal10ScopedListIPNS0_9StatementEPvE6CopyToEPNS0_8ZoneListIS3_EEPNS0_4ZoneE
+      1    0.0%    0.0%  t __ZN4node3url12_GLOBAL__N_15ParseERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node2osL10GetCPUInfoERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node2fs13FSReqCallbackD0Ev
+      1    0.0%    0.0%  t __ZN4node2fs10GetReqWrapERKN2v820FunctionCallbackInfoINS1_5ValueEEEib
+      1    0.0%    0.0%  t __ZN4node15TraceEventScopeD2Ev
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_16Parser5ProxyIMS1_FiPKcmEXadL_ZNS1_15on_header_valueES4_mEEE3RawEP18llhttp__internal_sS4_m
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_16Parser13OnStreamAllocEm
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_111GetLibuvNowERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node10BaseObjectD2Ev
+      1    0.0%    0.0%  t __ZN2v88internalL41Builtin_Impl_CallSitePrototypeGetFileNameENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      1    0.0%    0.0%  t __ZN2v88internal19SequentialStringKeyIhE7IsMatchENS0_6StringE
+      1    0.0%    0.0%  t __ZN2v88internal12_GLOBAL__N_133MatchArrayElementsKindToArgumentsEPNS0_7IsolateENS0_6HandleINS0_7JSArrayEEEPNS0_16BuiltinArgumentsEii
+      1    0.0%    0.0%  t __ZN2v88internal12_GLOBAL__N_130FinalizeUnoptimizedCompilationEPNS0_7IsolateENS0_6HandleINS0_6ScriptEEERKNS0_23UnoptimizedCompileFlagsEPKNS0_23UnoptimizedCompileStateERKNSt3__16vectorINS0_34FinalizeUnoptimizedCompilationDataENSD_9allocatorISF_EEEE
+      1    0.0%    0.0%  t __ZN2v88internal12_GLOBAL__N_116GetOptimizedCodeENS0_6HandleINS0_10JSFunctionEEENS0_15ConcurrencyModeENS0_9BailoutIdEPNS0_15JavaScriptFrameE
+      1    0.0%    0.0%  t __ZN2v88internal12_GLOBAL__N_116Fast_ArrayConcatEPNS0_7IsolateEPNS0_16BuiltinArgumentsE
+      1    0.0%    0.0%  t __ZN2v84base19TemplateHashMapImplIPvS2_NS0_26HashEqualityThenKeyMatcherIS2_PFbS2_S2_EEENS0_23DefaultAllocationPolicyEE6ResizeES7_
+      1    0.0%    0.0%  T _pthread_mutex_init
+      1    0.0%    0.0%  T _mach_msg_destroy
+      1    0.0%    0.0%  T __kernelrpc_mach_port_set_attributes
+      1    0.0%    0.0%  T ___psynch_mutexwait
+      1    0.0%    0.0%  T ___getdirentries64
+      1    0.0%    0.0%  T __ZNK2v88internal12AstRawString12AsArrayIndexEPj
+      1    0.0%    0.0%  T __ZNK2v86String9WriteUtf8EPNS_7IsolateEPciPii
+      1    0.0%    0.0%  T __ZNK2v85Value8ToObjectENS_5LocalINS_7ContextEEE
+      1    0.0%    0.0%  T __ZNK2v85Array6LengthEv
+      1    0.0%    0.0%  T __ZN4node9AsyncWrap20EmitTraceEventBeforeEv
+      1    0.0%    0.0%  T __ZN4node9AsyncWrap19EmitTraceEventAfterENS0_12ProviderTypeEd
+      1    0.0%    0.0%  T __ZN4node9AsyncWrap12MakeCallbackEN2v85LocalINS1_8FunctionEEEiPNS2_INS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node7TTYWrap13GetWindowSizeERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node6Buffer11HasInstanceEN2v85LocalINS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node2fs9FSReqBaseD2Ev
+      1    0.0%    0.0%  T __ZN4node24NodeArrayBufferAllocator8AllocateEm
+      1    0.0%    0.0%  T __ZN4node12NodePlatform18CallOnWorkerThreadENSt3__110unique_ptrIN2v84TaskENS1_14default_deleteIS4_EEEE
+      1    0.0%    0.0%  T __ZN4node11Environment17RunWeakRefCleanupEv
+      1    0.0%    0.0%  T __ZN2v88internal8Compiler31FinalizeOptimizedCompilationJobEPNS0_23OptimizedCompilationJobEPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal8Compiler21GetSharedFunctionInfoINS0_7IsolateEEENS0_6HandleINS0_18SharedFunctionInfoEEEPNS0_15FunctionLiteralENS4_INS0_6ScriptEEEPT_
+      1    0.0%    0.0%  T __ZN2v88internal8Compiler21GetFunctionFromStringENS0_6HandleINS0_7ContextEEENS2_INS0_6ObjectEEENS0_16ParseRestrictionEi
+      1    0.0%    0.0%  T __ZN2v88internal8Builtins7builtinEi
+      1    0.0%    0.0%  T __ZN2v88internal8Builtins4nameEi
+      1    0.0%    0.0%  T __ZN2v88internal5Scope9ResolveToEPNS0_13VariableProxyEPNS0_8VariableE
+      1    0.0%    0.0%  T __ZN2v88internal5Scope6LookupILNS1_15ScopeLookupModeE1EEEPNS0_8VariableEPNS0_13VariableProxyEPS1_S8_S8_b
+      1    0.0%    0.0%  T __ZN2v88internal5Scope16AnalyzePartiallyEPNS0_16DeclarationScopeEPNS0_14AstNodeFactoryEPNS_4base16ThreadedListBaseINS0_13VariableProxyENS6_9EmptyBaseENS8_14UnresolvedNextEEEb
+      1    0.0%    0.0%  T __ZN2v88internal34Builtin_StringPrototypeLastIndexOfEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal33Builtin_TypedArrayPrototypeBufferEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal18Builtin_ArrayShiftEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal16DeclarationScopeC2EPNS0_4ZoneENS0_9ScopeTypeENS0_6HandleINS0_9ScopeInfoEEE
+      1    0.0%    0.0%  T __ZN2v88internal16DeclarationScope25HoistSloppyBlockFunctionsEPNS0_14AstNodeFactoryE
+      1    0.0%    0.0%  T __ZN2v88internal16CompilationCache12LookupRegExpENS0_6HandleINS0_6StringEEENS_4base5FlagsINS0_8JSRegExp4FlagEiEE
+      1    0.0%    0.0%  T __ZN2v88internal16CompareOperation22IsLiteralCompareTypeofEPPNS0_10ExpressionEPPNS0_7LiteralE
+      1    0.0%    0.0%  T __ZN2v88internal16Builtin_ArrayPopEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v87Isolate31SuppressMicrotaskExecutionScopeD1Ev
+      1    0.0%    0.0%  T __ZN2v87Isolate17GetCurrentContextEv
+      1    0.0%    0.0%  T __ZN2v87Integer3NewEPNS_7IsolateEi
+      1    0.0%    0.0%  T __ZN2v87Context29GetNumberOfEmbedderDataFieldsEv
+      1    0.0%    0.0%  T __ZN2v86Object3NewEPNS_7IsolateE
+      1    0.0%    0.0%  T __ZN2v86Object3GetENS_5LocalINS_7ContextEEEj
+      1    0.0%    0.0%  T __ZN2v86Object3GetENS_5LocalINS_7ContextEEENS1_INS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v820EscapableHandleScopeC2EPNS_7IsolateE
+
+ [Summary]:
+   ticks  total  nonlib   name
+    276    5.3%    5.5%  JavaScript
+   4726   90.8%   94.2%  C++
+    316    6.1%    6.3%  GC
+    188    3.6%          Shared libraries
+     16    0.3%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   2531   59.7%   48.6%  t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+   1516   35.8%   29.1%  T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     49    1.2%    0.9%  T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+     27    0.6%    0.5%  T __ZN2v88internal19Builtin_ArrayConcatEiPmPNS0_7IsolateE
+     25    0.6%    0.5%  T _fcntl
+     16    0.4%    0.3%  T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+      9    0.2%    0.2%  T __ZN2v88internal20Builtin_ArrayUnshiftEiPmPNS0_7IsolateE
+      8    0.2%    0.2%  T __ZN2v88internal27Builtin_FunctionConstructorEiPmPNS0_7IsolateE
+      7    0.2%    0.1%  T __ZN2v88internal28Builtin_ObjectDefinePropertyEiPmPNS0_7IsolateE
+      7    0.2%    0.1%  T __ZN2v88internal16Builtin_ArrayPopEiPmPNS0_7IsolateE
+      5    0.1%    0.1%  T __ZN2v88internal23Builtin_DateConstructorEiPmPNS0_7IsolateE
+      5    0.1%    0.1%  T __ZN2v88internal18Builtin_ObjectSealEiPmPNS0_7IsolateE
+      5    0.1%    0.1%  T __ZN2v88internal15Builtin_DateNowEiPmPNS0_7IsolateE
+      3    0.1%    0.1%  T _mach_vm_copy
+      2    0.0%    0.0%  T __ZN2v88internal9Accessors20FunctionLengthGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      2    0.0%    0.0%  T __ZN2v88internal34Builtin_StringPrototypeLastIndexOfEiPmPNS0_7IsolateE
+      2    0.0%    0.0%  T __ZN2v88internal33Builtin_TypedArrayPrototypeBufferEiPmPNS0_7IsolateE
+      2    0.0%    0.0%  T __ZN2v88internal32Builtin_GlobalDecodeURIComponentEiPmPNS0_7IsolateE
+      2    0.0%    0.0%  T __ZN2v88internal30Builtin_ArrayBufferConstructorEiPmPNS0_7IsolateE
+      2    0.0%    0.0%  T __ZN2v88internal18Builtin_ArrayShiftEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  t __ZN4node2fs10GetReqWrapERKN2v820FunctionCallbackInfoINS1_5ValueEEEib
+      1    0.0%    0.0%  T __ZNK2v86String9WriteUtf8EPNS_7IsolateEPciPii
+      1    0.0%    0.0%  T __ZN4node6Buffer11HasInstanceEN2v85LocalINS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node14options_parser10GetOptionsERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors16ErrorStackGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal36Builtin_CallSitePrototypeGetFileNameEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal30Builtin_ObjectDefinePropertiesEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal30Builtin_ErrorCaptureStackTraceEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal29Builtin_ReflectDefinePropertyEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal29Builtin_FunctionPrototypeBindEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal24Builtin_ErrorConstructorEiPmPNS0_7IsolateE
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   2667   51.2%  t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+    855   32.1%    t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+     63    7.4%      t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      4    6.3%        LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      4  100.0%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+      4  100.0%            LazyCompile: ~trySelf internal/modules/cjs/loader.js:391:17
+      3    4.8%        LazyCompile: ~parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:271:16
+      3  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      3  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:181:26
+      3    4.8%        LazyCompile: ~next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      3  100.0%          LazyCompile: ~lex /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      3  100.0%            LazyCompile: ~lex /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      3    4.8%        LazyCompile: ~formatPrimitive internal/util/inspect.js:1393:25
+      3  100.0%          LazyCompile: ~formatValue internal/util/inspect.js:738:21
+      2   66.7%            LazyCompile: ~formatProperty internal/util/inspect.js:1682:24
+      1   33.3%            LazyCompile: *formatProperty internal/util/inspect.js:1682:24
+      3    4.8%        LazyCompile: ~escapeExpression /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      3  100.0%          Eval: ~<anonymous> :1:20
+      3  100.0%            LazyCompile: ~main /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      3    4.8%        LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      3  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+      3  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+      3    4.8%        LazyCompile: *quotedString /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      3  100.0%          LazyCompile: ~pushSource /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      3  100.0%            LazyCompile: ~appendEscaped /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      3    4.8%        LazyCompile: *pushSource /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      2   66.7%          LazyCompile: ~appendEscaped /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      2  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   33.3%          LazyCompile: ~append /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      3    4.8%        LazyCompile: *<anonymous> :1:20
+      3  100.0%          LazyCompile: ~main /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      3  100.0%            LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      2    3.2%        LazyCompile: ~realpathSync fs.js:1650:22
+      2  100.0%          LazyCompile: ~toRealPath internal/modules/cjs/loader.js:343:20
+      2  100.0%            LazyCompile: ~tryFile internal/modules/cjs/loader.js:334:17
+      2    3.2%        LazyCompile: ~pipe /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:510:43
+      2  100.0%          LazyCompile: ~serveStatic /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/serve-static/index.js:72:31
+      2  100.0%            LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      2    3.2%        LazyCompile: ~getOwn internal/bootstrap/loaders.js:153:16
+      2  100.0%          LazyCompile: ~syncExports internal/bootstrap/loaders.js:258:14
+      2  100.0%            LazyCompile: ~<anonymous> internal/bootstrap/loaders.js:244:15
+      2    3.2%        LazyCompile: ~expressInit /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/middleware/init.js:29:30
+      2  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%            LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      2    3.2%        LazyCompile: ~entitytag /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/etag/index.js:39:20
+      2  100.0%          LazyCompile: ~etag /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/etag/index.js:70:15
+      2  100.0%            LazyCompile: ~generateETag /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/utils.js:275:32
+      1    1.6%        LazyCompile: ~toString /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/uid-safe/index.js:102:19
+      1  100.0%          LazyCompile: ~uidSync /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/uid-safe/index.js:75:18
+      1  100.0%            LazyCompile: ~generateSessionId /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:514:27
+      1    1.6%        LazyCompile: ~removeColors internal/util.js:47:22
+      1  100.0%          LazyCompile: ~isBelowBreakLength internal/util/inspect.js:1743:28
+      1  100.0%            LazyCompile: ~reduceToSingleString internal/util/inspect.js:1767:30
+      1    1.6%        LazyCompile: ~relative path.js:1052:11
+      1  100.0%          LazyCompile: ~renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      1  100.0%            LazyCompile: ~render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/view.js:133:40
+      1    1.6%        LazyCompile: ~populateMaps /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mime-types/index.js:154:23
+      1  100.0%          Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mime-types/index.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    1.6%        LazyCompile: ~pathtoRegexp /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/path-to-regexp/index.js:28:22
+      1  100.0%          LazyCompile: ~Layer /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:33:15
+      1  100.0%            LazyCompile: ~use /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:428:25
+      1    1.6%        LazyCompile: ~parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/content-type/index.js:106:16
+      1  100.0%          LazyCompile: ~setCharset /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/utils.js:250:41
+      1  100.0%            LazyCompile: ~send /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:107:25
+      1    1.6%        LazyCompile: ~isNextWhitespace /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:165:26
+      1  100.0%          LazyCompile: ~WhitespaceControl.Program /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:19:48
+      1  100.0%            LazyCompile: *accept /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:57:26
+      1    1.6%        LazyCompile: ~isIPv6 internal/net.js:34:16
+      1  100.0%          LazyCompile: ~isIP internal/net.js:38:14
+      1  100.0%            LazyCompile: ~lookupAndConnect net.js:982:26
+      1    1.6%        LazyCompile: ~header /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:754:29
+      1  100.0%          LazyCompile: ~send /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:107:25
+      1  100.0%            LazyCompile: *renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      1    1.6%        LazyCompile: ~clone /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/graceful-fs/clone.js:9:16
+      1  100.0%          Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/graceful-fs/graceful-fs.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    1.6%        LazyCompile: ~Schema.path /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/schema.js:618:33
+      1  100.0%          LazyCompile: ~Document.$__setSchema /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/document.js:3043:43
+      1  100.0%            LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/model.js:4701:33
+      1    1.6%        LazyCompile: ~Module._nodeModulePaths internal/modules/cjs/loader.js:575:37
+      1  100.0%          LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+      1    1.6%        LazyCompile: ~Mime.lookup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mime/mime.js:69:33
+      1  100.0%          Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mime/mime.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    1.6%        LazyCompile: ~Kareem.filter /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/kareem/index.js:324:35
+      1  100.0%          LazyCompile: ~applyHooks /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/helpers/model/applyHooks.js:32:20
+      1  100.0%            LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/model.js:4701:33
+      1    1.6%        LazyCompile: ~<anonymous> internal/fs/utils.js:320:35
+      1  100.0%          LazyCompile: *hidden internal/errors.js:286:25
+      1  100.0%            LazyCompile: ~<anonymous> internal/fs/utils.js:618:38
+      1    1.6%        LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:181:26
+      1  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1  100.0%            LazyCompile: ~make /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:142:15
+      1    1.6%        LazyCompile: *parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:271:16
+      1  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/minimatch/minimatch.js:181:26
+      1    1.6%        LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%          LazyCompile: *parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%            LazyCompile: ~parseWithoutProcessing /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1    1.6%        LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      1  100.0%          LazyCompile: ~strategy.pass /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/authenticate.js:342:31
+      1  100.0%            LazyCompile: ~SessionStrategy.authenticate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/strategies/session.js:44:50
+      1    1.6%        LazyCompile: *appendEscaped /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      1    1.6%        LazyCompile: *<anonymous> internal/per_context/primordials.js:23:10
+      1  100.0%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+      1  100.0%            LazyCompile: ~trySelf internal/modules/cjs/loader.js:391:17
+      1    1.6%        Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/iconv-lite/lib/index.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    1.6%        Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     33    3.9%      LazyCompile: *SourceNode_walk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:221:53
+     29   87.9%        LazyCompile: *SourceNode_walk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:221:53
+     29  100.0%          LazyCompile: *SourceNode_walk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:221:53
+     26   89.7%            LazyCompile: *SourceNode_walk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:221:53
+      3   10.3%            LazyCompile: ~SourceNode_toString /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:318:61
+      4   12.1%        LazyCompile: ~SourceNode_toString /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/source-map/lib/source-node.js:318:61
+      4  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      4  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     27    3.2%      LazyCompile: *wrap /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      8   29.6%        LazyCompile: *generateList /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:143:38
+      4   50.0%          LazyCompile: ~objectLiteral /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      4  100.0%            LazyCompile: ~objectLiteral /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1002:40
+      4   50.0%          LazyCompile: *setupHelperArgs /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      4  100.0%            LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      7   25.9%        LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      4   57.1%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2   50.0%            LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      2   50.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      3   42.9%          LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      3  100.0%            LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      4   14.8%        LazyCompile: *castChunk /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      4  100.0%          LazyCompile: *wrap /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      2   50.0%            LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1   25.0%            LazyCompile: ~push /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1   25.0%            LazyCompile: *resolvePath /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      3   11.1%        LazyCompile: *resolvePath /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      3  100.0%          LazyCompile: ~lookupOnContext /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      3  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    3.7%        LazyCompile: ~push /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1  100.0%          LazyCompile: ~replaceStack /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1  100.0%            LazyCompile: ~resolvePath /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1    3.7%        LazyCompile: ~aliasable /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1006:32
+      1  100.0%          LazyCompile: ~invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    3.7%        LazyCompile: *push /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1  100.0%          LazyCompile: ~invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    3.7%        LazyCompile: *appendToBuffer /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      1  100.0%          LazyCompile: ~appendEscaped /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    3.7%        LazyCompile: *appendEscaped /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+     27    3.2%      LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     14   51.9%        LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+     14  100.0%          LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+     14  100.0%            LazyCompile: ~_renderTemplate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:260:18
+     13   48.1%        LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+     13  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+     25    2.9%      LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     25  100.0%        LazyCompile: *parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     25  100.0%          LazyCompile: ~parseWithoutProcessing /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+     15   60.0%            LazyCompile: ~parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+     10   40.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+     18    2.1%      LazyCompile: ~getOptions internal/fs/utils.js:284:20
+     10   55.6%        LazyCompile: ~readFileSync fs.js:374:22
+      9   90.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      9  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1   10.0%          LazyCompile: ~Module._extensions..json internal/modules/cjs/loader.js:1097:39
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      8   44.4%        LazyCompile: ~readFile fs.js:310:18
+      8  100.0%          LazyCompile: ~go$readFile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/graceful-fs/graceful-fs.js:117:26
+      8  100.0%            LazyCompile: ~readFile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/graceful-fs/graceful-fs.js:111:21
+     16    1.9%      LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+     14   87.5%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      2   12.5%        LazyCompile: *renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      2  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+     14    1.6%      LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      5   35.7%        LazyCompile: ~strategy.pass /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/authenticate.js:342:31
+      5  100.0%          LazyCompile: ~SessionStrategy.authenticate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/strategies/session.js:44:50
+      5  100.0%            LazyCompile: ~attempt /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/authenticate.js:177:22
+      3   21.4%        LazyCompile: ~initialize /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/initialize.js:44:29
+      3  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      3  100.0%            LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      2   14.3%        LazyCompile: ~session /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:179:26
+      2  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%            LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      2   14.3%        LazyCompile: ~jsonParser /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/body-parser/lib/types/json.js:98:30
+      2  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%            LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      1    7.1%        LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:158:29
+      1  100.0%            LazyCompile: ~app /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/express.js:38:21
+      1    7.1%        LazyCompile: ~cookieParser /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/cookie-parser/index.js:44:32
+      1  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+     12    1.4%      LazyCompile: ~renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      9   75.0%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      3   25.0%        LazyCompile: ~render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/view.js:133:40
+      3  100.0%          LazyCompile: ~tryRender /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:638:19
+      3  100.0%            LazyCompile: ~render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:531:29
+     12    1.4%      LazyCompile: ~render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+     12  100.0%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+     12    1.4%      LazyCompile: ~initialize /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/initialize.js:44:29
+     12  100.0%        LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+     11   91.7%          LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+     11  100.0%            LazyCompile: ~error /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/serve-static/index.js:115:39
+      1    8.3%          LazyCompile: ~trim_prefix /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:275:64
+     10    1.2%      LazyCompile: ~session /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:179:26
+     10  100.0%        LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      9   90.0%          LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      9  100.0%            LazyCompile: ~cookieParser /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/cookie-parser/index.js:44:32
+      1   10.0%          LazyCompile: ~trim_prefix /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:275:64
+     10    1.2%      LazyCompile: ~send /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:107:25
+      7   70.0%        LazyCompile: *renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      7  100.0%          t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      3   30.0%        LazyCompile: ~done /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:1006:27
+      3  100.0%          LazyCompile: ~renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      3  100.0%            t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+     10    1.2%      LazyCompile: ~resOnFinish _http_server.js:756:21
+      8   80.0%        LazyCompile: *emit events.js:264:44
+      8  100.0%          LazyCompile: ~onFinish _http_outgoing.js:764:18
+      8  100.0%            LazyCompile: ~callback internal/streams/writable.js:511:44
+      2   20.0%        LazyCompile: ~emit events.js:264:44
+      2  100.0%          LazyCompile: ~onFinish _http_outgoing.js:764:18
+      2  100.0%            LazyCompile: ~callback internal/streams/writable.js:511:44
+     10    1.2%      LazyCompile: ~inflight /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/inflight/inflight.js:7:19
+     10  100.0%        LazyCompile: ~wrapper /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/wrappy/wrappy.js:19:19
+     10  100.0%          LazyCompile: ~Glob._readdir /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/glob/glob.js:525:36
+     10  100.0%            LazyCompile: ~Glob._processGlobStar /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/glob/glob.js:623:44
+     10    1.2%      LazyCompile: ~expressInit /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/middleware/init.js:29:30
+     10  100.0%        LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      9   90.0%          LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      9  100.0%            LazyCompile: ~query /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/middleware/query.js:39:24
+      1   10.0%          LazyCompile: ~trim_prefix /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:275:64
+     10    1.2%      LazyCompile: ~end _http_outgoing.js:769:45
+     10  100.0%        LazyCompile: ~end /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:250:27
+     10  100.0%          LazyCompile: ~send /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:107:25
+      7   70.0%            LazyCompile: ~done /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:1006:27
+      3   30.0%            LazyCompile: *renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      9    1.1%      LazyCompile: ~setWriteHeadHeaders /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/on-headers/index.js:105:30
+      9  100.0%        LazyCompile: ~writeHead /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/on-headers/index.js:28:29
+      9  100.0%          LazyCompile: ~_implicitHeader _http_server.js:245:68
+      9  100.0%            LazyCompile: ~write_ _http_outgoing.js:678:16
+      9    1.1%      LazyCompile: ~resume_ internal/streams/readable.js:965:17
+      6   66.7%        LazyCompile: *processTicksAndRejections internal/process/task_queues.js:65:35
+      3   33.3%        LazyCompile: ~processTicksAndRejections internal/process/task_queues.js:65:35
+      9    1.1%      LazyCompile: ~moveHelperToHooks /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/helpers.js:48:27
+      9  100.0%        LazyCompile: ~ret._setup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:217:25
+      9  100.0%          LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      5   55.6%            LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      4   44.4%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+     41    1.5%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+     14   34.1%      LazyCompile: ~hash /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:592:14
+     12   85.7%        LazyCompile: ~isModified /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:421:24
+     10   83.3%          LazyCompile: ~shouldSave /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:436:24
+     10  100.0%            LazyCompile: ~end /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:250:27
+      2   16.7%          LazyCompile: ~shouldSetCookie /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:460:29
+      2  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:220:28
+      2   14.3%        LazyCompile: ~generate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:359:22
+      2  100.0%          LazyCompile: ~session /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:179:26
+      2  100.0%            LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      8   19.5%      LazyCompile: ~setupHelperArgs /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      6   75.0%        LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      4   66.7%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      4  100.0%            LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      2   33.3%          LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2  100.0%            LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      2   25.0%        LazyCompile: ~setupHelper /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1020:36
+      2  100.0%          LazyCompile: ~invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1   50.0%            LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   50.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      6   14.6%      LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/index.js:171:22
+      6  100.0%        LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      6  100.0%          LazyCompile: ~next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/route.js:114:16
+      6  100.0%            LazyCompile: ~dispatch /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/route.js:98:45
+      5   12.2%      LazyCompile: *setupHelperArgs /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      5  100.0%        LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      5  100.0%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      5  100.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      3    7.3%      LazyCompile: *internalNameLookup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:66:50
+      3  100.0%        LazyCompile: ~nameLookup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:29:34
+      2   66.7%          LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:505:34
+      1   50.0%            LazyCompile: ~replaceStack /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1   50.0%            LazyCompile: *replaceStack /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1   33.3%          LazyCompile: ~invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    4.9%      LazyCompile: *resolvePath /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      2  100.0%        LazyCompile: ~lookupOnContext /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      2  100.0%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2  100.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      1    2.4%      LazyCompile: ~internalNameLookup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:66:50
+      1  100.0%        LazyCompile: ~nameLookup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:29:34
+      1  100.0%          LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:505:34
+      1  100.0%            LazyCompile: ~replaceStack /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1    2.4%      LazyCompile: *lookupOnContext /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      1  100.0%        LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      1  100.0%            t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1    2.4%      LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%        LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      1  100.0%            t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+
+    479    9.2%  t __ZN4node2fsL4ReadERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+    479  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    446   93.1%      LazyCompile: ~readSync fs.js:555:18
+    446  100.0%        LazyCompile: ~tryReadSync fs.js:362:21
+    446  100.0%          LazyCompile: ~readFileSync fs.js:374:22
+    443   99.3%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     33    6.9%      LazyCompile: ~read internal/fs/read_file_context.js:79:7
+     33  100.0%        LazyCompile: ~readFileAfterStat fs.js:285:27
+
+    269    5.2%  T __ZN4node10contextify17ContextifyContext15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+    269  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    269  100.0%      LazyCompile: ~wrapSafe internal/modules/cjs/loader.js:964:18
+    269  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+    269  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+    269  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+
+    107    2.1%  t __ZN4node2fsL22InternalModuleReadJSONERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+    107  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    107  100.0%      LazyCompile: ~read internal/modules/package_json_reader.js:16:14
+    105   98.1%        LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+    104   99.0%          LazyCompile: ~resolveExports internal/modules/cjs/loader.js:422:24
+    104  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      2    1.9%        LazyCompile: *readPackageScope internal/modules/cjs/loader.js:271:26
+      2  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      2  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+
+    105    2.0%  T __ZN4node13native_module15NativeModuleEnv15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+    105  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    105  100.0%      LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+     94   89.5%        LazyCompile: ~nativeModuleRequire internal/bootstrap/loaders.js:303:29
+     17   18.1%          LazyCompile: ~setupPrepareStackTrace internal/bootstrap/node.js:252:32
+     17  100.0%            Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      9    9.6%          Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      5    5.3%          Eval: ~<anonymous> internal/source_map/source_map_cache.js:1:1
+      5  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      5    5.3%          Eval: ~<anonymous> crypto.js:1:1
+      5  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      4    4.3%          Eval: ~<anonymous> stream.js:1:1
+      4  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      4    4.3%          Eval: ~<anonymous> http.js:1:1
+      4  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      3    3.2%          LazyCompile: ~initializeCJSLoader internal/bootstrap/pre_execution.js:407:29
+      3  100.0%            LazyCompile: ~prepareMainThreadExecution internal/bootstrap/pre_execution.js:19:36
+      3    3.2%          Eval: ~<anonymous> tty.js:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      3    3.2%          Eval: ~<anonymous> internal/url.js:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      3    3.2%          Eval: ~<anonymous> internal/modules/esm/loader.js:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      3    3.2%          Eval: ~<anonymous> events.js:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          LazyCompile: ~setupBuffer internal/bootstrap/node.js:300:21
+      2  100.0%            Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      2    2.1%          Eval: ~<anonymous> tls.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> timers.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> internal/process/esm_loader.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> internal/modules/esm/get_source.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> internal/modules/cjs/loader.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> internal/console/global.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> fs.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> assert.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    2.1%          Eval: ~<anonymous> _http_client.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          LazyCompile: ~setupProcessObject internal/bootstrap/node.js:271:28
+      1  100.0%            Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      1    1.1%          LazyCompile: ~lazyLoadStreams fs.js:1994:25
+      1  100.0%            LazyCompile: ~get ReadStream fs.js:2101:17
+      1    1.1%          LazyCompile: ~initializeReport internal/bootstrap/pre_execution.js:173:26
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution internal/bootstrap/pre_execution.js:19:36
+      1    1.1%          Eval: ~<anonymous> zlib.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> net.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> internal/util/inspect.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> internal/modules/cjs/helpers.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> internal/cluster/round_robin_handle.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> internal/child_process.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> internal/bootstrap/pre_execution.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> dgram.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> cluster.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> child_process.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> buffer.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    1.1%          Eval: ~<anonymous> _http_agent.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+     11   10.5%        LazyCompile: ~compileForPublicLoader internal/bootstrap/loaders.js:219:25
+     11  100.0%          LazyCompile: ~loadNativeModule internal/modules/cjs/helpers.js:31:26
+     11  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+
+     92    1.8%  T ___workq_kernreturn
+      2    2.2%    t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1   50.0%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1   50.0%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+
+     91    1.7%  T __kernelrpc_thread_policy_set
+
+     82    1.6%  /usr/lib/system/libsystem_malloc.dylib
+     39   47.6%    t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      6   15.4%      t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      2   33.3%        LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      1   50.0%          LazyCompile: ~tryPackage internal/modules/cjs/loader.js:288:20
+      1  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      1   50.0%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1   16.7%        LazyCompile: ~strEscape internal/util/inspect.js:464:19
+      1  100.0%          LazyCompile: ~<anonymous> internal/util/inspect.js:1408:14
+      1  100.0%            t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1   16.7%        LazyCompile: ~realpathSync fs.js:1650:22
+      1  100.0%          LazyCompile: ~toRealPath internal/modules/cjs/loader.js:343:20
+      1  100.0%            LazyCompile: ~tryFile internal/modules/cjs/loader.js:334:17
+      1   16.7%        LazyCompile: ~escapeExpression /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      1  100.0%          Eval: ~<anonymous> :1:20
+      1  100.0%            LazyCompile: ~main /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      2    5.1%      LazyCompile: ~realpathSync fs.js:1650:22
+      2  100.0%        LazyCompile: ~toRealPath internal/modules/cjs/loader.js:343:20
+      2  100.0%          LazyCompile: ~tryFile internal/modules/cjs/loader.js:334:17
+      2  100.0%            LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:350:23
+      2    5.1%      LazyCompile: ~messageHandler /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/cmap/connection.js:220:33
+      2  100.0%        LazyCompile: ~emit events.js:264:44
+      2  100.0%          LazyCompile: ~processIncomingData /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/cmap/message_stream.js:103:29
+      2  100.0%            LazyCompile: ~_write /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/cmap/message_stream.js:38:9
+      2    5.1%      LazyCompile: ~inflight /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/inflight/inflight.js:7:19
+      2  100.0%        LazyCompile: ~wrapper /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/wrappy/wrappy.js:19:19
+      2  100.0%          LazyCompile: ~Glob._readdir /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/glob/glob.js:525:36
+      2  100.0%            LazyCompile: ~Glob._processGlobStar /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/glob/glob.js:623:44
+      1    2.6%      LazyCompile: ~store.generate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:158:28
+      1  100.0%        LazyCompile: ~generate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:359:22
+      1  100.0%          LazyCompile: ~session /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:179:26
+      1  100.0%            LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      1    2.6%      LazyCompile: ~setStreamTimeout internal/stream_base_commons.js:243:26
+      1  100.0%        LazyCompile: ~resOnFinish _http_server.js:756:21
+      1  100.0%          LazyCompile: ~emit events.js:264:44
+      1  100.0%            LazyCompile: ~onFinish _http_outgoing.js:764:18
+      1    2.6%      LazyCompile: ~serializeBson /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/msg.js:126:16
+      1  100.0%        LazyCompile: ~makeDocumentSegment /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/msg.js:115:22
+      1  100.0%          LazyCompile: ~toBin /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/msg.js:80:8
+      1  100.0%            LazyCompile: ~writeCommand /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/cmap/message_stream.js:51:15
+      1    2.6%      LazyCompile: ~send /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:107:25
+      1  100.0%        LazyCompile: ~done /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:1006:27
+      1  100.0%          LazyCompile: ~renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      1  100.0%            t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1    2.6%      LazyCompile: ~resolve path.js:973:10
+      1  100.0%        LazyCompile: ~defaultConfiguration /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:70:57
+      1  100.0%          LazyCompile: ~init /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:57:25
+      1  100.0%            LazyCompile: ~createApplication /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/express.js:37:27
+      1    2.6%      LazyCompile: ~render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      1  100.0%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1    2.6%      LazyCompile: ~readSync fs.js:555:18
+      1  100.0%        LazyCompile: ~tryReadSync fs.js:362:21
+      1  100.0%          LazyCompile: ~readFileSync fs.js:374:22
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    2.6%      LazyCompile: ~performInitialHandshake /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:70:33
+      1  100.0%        LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:30:54
+      1  100.0%          LazyCompile: ~callback /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:275:28
+      1  100.0%            LazyCompile: ~connectHandler /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:314:26
+      1    2.6%      LazyCompile: ~parserOnHeadersComplete _http_common.js:75:33
+      1    2.6%      LazyCompile: ~parse /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/content-type/index.js:106:16
+      1  100.0%        LazyCompile: ~setCharset /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/utils.js:250:41
+      1  100.0%          LazyCompile: ~send /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:107:25
+      1  100.0%            LazyCompile: ~done /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/response.js:1006:27
+      1    2.6%      LazyCompile: ~nextTick internal/process/task_queues.js:101:18
+      1  100.0%        LazyCompile: ~resOnFinish _http_server.js:756:21
+      1  100.0%          LazyCompile: ~emit events.js:264:44
+      1  100.0%            LazyCompile: ~onFinish _http_outgoing.js:764:18
+      1    2.6%      LazyCompile: ~module.exports /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/bluebird/js/release/promise.js:2:26
+      1  100.0%        Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/bluebird/js/release/bluebird.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    2.6%      LazyCompile: ~mergeSource /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      1  100.0%        LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    2.6%      LazyCompile: ~lookupOnContext /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      1  100.0%        LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    2.6%      LazyCompile: ~hb.compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars.js:38:25
+      1  100.0%        LazyCompile: ~_compileTemplate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:252:19
+      1  100.0%          LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:123:11
+      1    2.6%      LazyCompile: ~handleErrorFromBinding internal/fs/utils.js:303:32
+      1  100.0%        LazyCompile: ~readSync fs.js:555:18
+      1  100.0%          LazyCompile: ~tryReadSync fs.js:362:21
+      1  100.0%            LazyCompile: ~readFileSync fs.js:374:22
+      1    2.6%      LazyCompile: ~formatValue internal/util/inspect.js:738:21
+      1  100.0%        LazyCompile: ~inspect internal/util/inspect.js:284:17
+      1  100.0%          LazyCompile: ~createAppender /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/log4js/lib/appenders/index.js:60:24
+      1  100.0%            LazyCompile: ~getAppender /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/log4js/lib/appenders/index.js:46:21
+      1    2.6%      LazyCompile: ~emit events.js:264:44
+      1  100.0%        LazyCompile: ~error /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:267:45
+      1  100.0%          LazyCompile: ~onStatError /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:416:57
+      1  100.0%            LazyCompile: ~next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:732:17
+      1    2.6%      LazyCompile: ~createUnsafeBuffer buffer.js:149:28
+      1  100.0%        LazyCompile: ~createPool buffer.js:158:20
+      1  100.0%          Eval: ~<anonymous> buffer.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.6%      LazyCompile: ~attempt /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/authenticate.js:177:22
+      1  100.0%        LazyCompile: ~authenticate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport/lib/middleware/authenticate.js:94:31
+      1  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            LazyCompile: *next /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:176:16
+      1    2.6%      LazyCompile: ~Schema /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/schema.js:92:16
+      1  100.0%        LazyCompile: ~Schema /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/schema.js:92:16
+      1  100.0%          Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/db/model.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    2.6%      LazyCompile: ~EventEmitter.init events.js:131:29
+      1  100.0%        LazyCompile: ~EventEmitter events.js:65:22
+      1  100.0%          LazyCompile: ~Server net.js:1160:16
+      1  100.0%            LazyCompile: ~Server _http_server.js:336:16
+      1    2.6%      LazyCompile: ~Connection /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/cmap/connection.js:29:14
+      1  100.0%        LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:30:54
+      1  100.0%          LazyCompile: ~callback /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:275:28
+      1  100.0%            LazyCompile: ~connectHandler /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:314:26
+      1    2.6%      LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      1  100.0%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1    2.6%      LazyCompile: *readPackageScope internal/modules/cjs/loader.js:271:26
+      1  100.0%        LazyCompile: ~trySelf internal/modules/cjs/loader.js:391:17
+      1  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+      1  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+      1    2.6%      LazyCompile: *processTicksAndRejections internal/process/task_queues.js:65:35
+      1    2.6%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/auth/scram.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      6    7.3%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+      3   50.0%      LazyCompile: ~setupHelperArgs /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      2   66.7%        LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      2  100.0%          LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2  100.0%            LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1   33.3%        LazyCompile: ~setupHelper /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1020:36
+      1  100.0%          LazyCompile: ~invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2   33.3%      LazyCompile: ~hash /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:592:14
+      1   50.0%        LazyCompile: ~isModified /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:421:24
+      1  100.0%          LazyCompile: ~shouldSave /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:436:24
+      1  100.0%            LazyCompile: ~end /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:250:27
+      1   50.0%        LazyCompile: ~generate /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:359:22
+      1  100.0%          LazyCompile: ~session /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:179:26
+      1  100.0%            LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      1   16.7%      LazyCompile: *setupHelperArgs /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1  100.0%        LazyCompile: *invokeAmbiguous /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%          LazyCompile: *compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: *render /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:150:15
+      3    3.7%    T __ZN2v88internal30Builtin_ArrayBufferConstructorEiPmPNS0_7IsolateE
+      2   66.7%      LazyCompile: *createUnsafeBuffer buffer.js:149:28
+      1   50.0%        LazyCompile: ~createPool buffer.js:158:20
+      1  100.0%          LazyCompile: ~fromStringFast buffer.js:425:24
+      1  100.0%            LazyCompile: ~fromString buffer.js:444:20
+      1   50.0%        LazyCompile: ~allocUnsafeSlow buffer.js:395:50
+      1  100.0%          LazyCompile: ~readFileAfterStat fs.js:285:27
+      1   33.3%      t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1  100.0%        LazyCompile: ~FastBuffer internal/buffer.js:951:1
+      1  100.0%          LazyCompile: ~createUnsafeBuffer buffer.js:149:28
+      1  100.0%            LazyCompile: ~allocate buffer.js:410:18
+      1    1.2%    T __ZN2v88internal32Builtin_GlobalDecodeURIComponentEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~decode /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:987:17
+      1  100.0%        LazyCompile: ~pipe /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:510:43
+      1  100.0%          LazyCompile: ~serveStatic /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/serve-static/index.js:72:31
+      1  100.0%            LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      1    1.2%    T __ZN2v88internal30Builtin_ErrorCaptureStackTraceEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~getStack /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/depd/index.js:365:19
+      1  100.0%        LazyCompile: ~wrapfunction /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/depd/index.js:397:23
+      1  100.0%          Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/utils.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    1.2%    T __ZN2v88internal29Builtin_FunctionPrototypeBindEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~<anonymous> internal/dns/utils.js:146:24
+      1  100.0%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1  100.0%          LazyCompile: ~bindDefaultResolver internal/dns/utils.js:145:29
+      1  100.0%            Eval: ~<anonymous> dns.js:1:1
+      1    1.2%    T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      1  100.0%        LazyCompile: ~resolveExports internal/modules/cjs/loader.js:422:24
+      1  100.0%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+
+     71    1.4%  t __ZN4node2fsL4OpenERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     71  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     42   59.2%      LazyCompile: ~openSync fs.js:467:18
+     42  100.0%        LazyCompile: ~readFileSync fs.js:374:22
+     41   97.6%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     41  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    2.4%          LazyCompile: ~Module._extensions..json internal/modules/cjs/loader.js:1097:39
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+     29   40.8%      LazyCompile: ~readFile fs.js:310:18
+     29  100.0%        LazyCompile: ~go$readFile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/graceful-fs/graceful-fs.js:117:26
+     29  100.0%          LazyCompile: ~readFile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/graceful-fs/graceful-fs.js:111:21
+     28   96.6%            LazyCompile: ~<anonymous> internal/util.js:296:24
+      1    3.4%            LazyCompile: *<anonymous> internal/util.js:296:24
+
+     65    1.2%  t __ZN4node2fsL4StatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     65  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     50   76.9%      LazyCompile: ~statSync fs.js:1081:18
+     50  100.0%        LazyCompile: ~tryStat /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/view.js:174:17
+     50  100.0%          LazyCompile: ~resolve /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/view.js:146:42
+     50  100.0%            LazyCompile: ~lookup /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/view.js:104:40
+     15   23.1%      LazyCompile: ~stat fs.js:1051:14
+     15  100.0%        LazyCompile: ~sendFile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:716:51
+     15  100.0%          LazyCompile: ~pipe /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:510:43
+     15  100.0%            LazyCompile: ~serveStatic /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/serve-static/index.js:72:31
+
+     56    1.1%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_6WritevERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+     56  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     56  100.0%      LazyCompile: ~writevGeneric internal/stream_base_commons.js:118:23
+     56  100.0%        LazyCompile: ~Socket._writeGeneric net.js:759:42
+     56  100.0%          LazyCompile: ~Socket._writev net.js:791:36
+     56  100.0%            LazyCompile: ~doWrite internal/streams/writable.js:367:17
+
+     55    1.1%  T _semaphore_create
+     27   49.1%    t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      3   11.1%      t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1   33.3%        LazyCompile: ~toString /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/uid-safe/index.js:102:19
+      1  100.0%          LazyCompile: ~uidSync /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/uid-safe/index.js:75:18
+      1  100.0%            LazyCompile: ~generateSessionId /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-session/index.js:514:27
+      1   33.3%        LazyCompile: ~isNextWhitespace /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:165:26
+      1  100.0%          LazyCompile: ~WhitespaceControl.Program /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:19:48
+      1  100.0%            LazyCompile: ~accept /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:57:26
+      1   33.3%        LazyCompile: ~ServerDescription /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/sdam/server_description.js:59:14
+      1  100.0%          LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/sdam/topology.js:139:48
+      1  100.0%            t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      2    7.4%      LazyCompile: ~emit events.js:264:44
+      1   50.0%        LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/utils.js:23:54
+      1  100.0%          LazyCompile: ~emit events.js:264:44
+      1  100.0%            LazyCompile: ~checkServer /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/sdam/monitor.js:181:21
+      1   50.0%        LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/sdam/monitor.js:258:64
+      1  100.0%          LazyCompile: ~callback /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:71:28
+      1  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:99:64
+      2    7.4%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mime/mime.js:1:1
+      2  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      2  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      2  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    3.7%      LazyCompile: ~writeOrBuffer internal/streams/writable.js:334:23
+      1  100.0%        LazyCompile: ~Writable.write internal/streams/writable.js:258:36
+      1  100.0%          LazyCompile: ~ondata internal/streams/readable.js:717:18
+      1  100.0%            LazyCompile: ~emit events.js:264:44
+      1    3.7%      LazyCompile: ~wrapper /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js:12:33
+      1  100.0%        Eval: ~<anonymous> :1:20
+      1  100.0%          LazyCompile: ~main /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1  100.0%            LazyCompile: ~ret /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1    3.7%      LazyCompile: ~renderView /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express-handlebars/lib/express-handlebars.js:183:19
+      1  100.0%        t __ZN2v88internal12_GLOBAL__N_132InsertCodeIntoOptimizedCodeCacheEPNS0_24OptimizedCompilationInfoE
+      1    3.7%      LazyCompile: ~readFileAfterStat fs.js:285:27
+      1    3.7%      LazyCompile: ~pipe /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/send/index.js:510:43
+      1  100.0%        LazyCompile: ~serveStatic /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/serve-static/index.js:72:31
+      1  100.0%          LazyCompile: ~handle /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            LazyCompile: ~trim_prefix /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/router/index.js:288:23
+      1    3.7%      LazyCompile: ~parsersCb _http_common.js:168:65
+      1  100.0%        LazyCompile: ~alloc internal/freelist.js:15:8
+      1  100.0%          LazyCompile: ~connectionListenerInternal _http_server.js:418:36
+      1  100.0%            LazyCompile: ~defaultTriggerAsyncIdScope internal/async_hooks.js:421:36
+      1    3.7%      LazyCompile: ~parse url.js:159:37
+      1  100.0%        LazyCompile: ~urlParse url.js:151:18
+      1  100.0%          LazyCompile: ~OAuth2Strategy /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport-oauth2/lib/strategy.js:76:24
+      1  100.0%            LazyCompile: ~Strategy /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/passport-facebook/lib/strategy.js:48:18
+      1    3.7%      LazyCompile: ~onStreamRead internal/stream_base_commons.js:165:22
+      1    3.7%      LazyCompile: ~executeUserEntryPoint internal/modules/run_main.js:65:31
+      1  100.0%        Eval: ~<anonymous> internal/main/run_main_module.js:1:1
+      1    3.7%      LazyCompile: ~clearTimeout timers.js:171:22
+      1  100.0%        LazyCompile: ~setStreamTimeout internal/stream_base_commons.js:243:26
+      1  100.0%          LazyCompile: ~connectHandler /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/core/connection/connect.js:314:26
+      1  100.0%            LazyCompile: ~onceWrapper events.js:416:21
+      1    3.7%      LazyCompile: ~_setClient /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/connection.js:881:20
+      1  100.0%        LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/connection.js:835:20
+      1  100.0%          LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/utils.js:685:14
+      1  100.0%            LazyCompile: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongodb/lib/mongo_client.js:256:53
+      1    3.7%      LazyCompile: ~WritableState internal/streams/writable.js:67:23
+      1  100.0%        LazyCompile: ~Writable internal/streams/writable.js:218:18
+      1  100.0%          LazyCompile: ~Duplex internal/streams/duplex.js:52:16
+      1  100.0%            LazyCompile: ~Socket net.js:268:16
+      1    3.7%      LazyCompile: ~Server.listen net.js:1398:35
+      1  100.0%        LazyCompile: ~listen /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/application.js:616:29
+      1  100.0%          Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/index.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    3.7%      LazyCompile: ~Program /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:113:28
+      1  100.0%        LazyCompile: ~accept /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1  100.0%          LazyCompile: ~compile /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:63:28
+      1  100.0%            LazyCompile: ~compileInput /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    3.7%      LazyCompile: ~Mongoose.model /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/mongoose/lib/index.js:480:36
+      1  100.0%        Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/db/model.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    3.7%      LazyCompile: *realpathSync fs.js:1650:22
+      1  100.0%        LazyCompile: ~toRealPath internal/modules/cjs/loader.js:343:20
+      1  100.0%          LazyCompile: ~tryFile internal/modules/cjs/loader.js:334:17
+      1  100.0%            LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:350:23
+      1    3.7%      LazyCompile: *processTicksAndRejections internal/process/task_queues.js:65:35
+      1    3.7%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/log4js/lib/levels.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    3.7%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/express/lib/utils.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    3.7%      Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/index.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    1.8%    T __ZN2v88internal27Builtin_FunctionConstructorEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~generateHolderClass /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/bluebird/js/release/join.js:28:39
+      1  100.0%        LazyCompile: ~module.exports /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/bluebird/js/release/join.js:3:9
+      1  100.0%          LazyCompile: ~module.exports /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/bluebird/js/release/promise.js:2:26
+      1  100.0%            Eval: ~<anonymous> /Users/shalema/Documents/Coding/Coderhouse/Desafio24/node_modules/bluebird/js/release/bluebird.js:1:1
+

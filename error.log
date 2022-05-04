@@ -1,0 +1,28 @@
+[2021-11-06T16:45:13.832] [ERROR] error - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\node_modules\mongoose\lib\connection.js:847:32)
+    at C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\node_modules\mongoose\lib\index.js:351:10
+    at C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\node_modules\mongoose\lib\index.js:350:20)
+    at Server.<anonymous> (C:\Users\shalema\Documents\alanshalem\coderhouse-backend\clase32\entrega32\index.js:211:18)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitListeningNT (net.js:1365:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
